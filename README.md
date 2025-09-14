@@ -4,8 +4,10 @@ This was my internship project and it was about making a web application using H
 
 Let's get right into it.
 
-There are two main folders: MITCS SITE and MITCS SERVICE. 
+I used "AdminLTE-3.2.0", it contains all the templates (html, SCSS, CSS, bootstrap, etc) to build the Front-End.
 
-In the first one following this path "MITCS SITE\MITCS\MITCSSite\Website" you'll find four folders. "AdminLTE-3.2.0" contains all the templates (CSS, bootstrap, etc). "JavaScript" contains all the logic process to communicate between the user's interface and the web methods through JSON files. "Page" contains all the HTML5 files. The las one contains logo images.
+JavaScript contains all the logic process to communicate between the user's interface and the web methods through JSON files.
 
-The second folder following this path "MITCS SERVICE\MITCSService\MITCSService\Metodos" you'll find all the web method to communicate with the DB and the JS.
+Page contains all the HTML5 files.
+
+In "Metodos" you'll find all the web method to communicate with the DB and the JS.
