@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MITCS</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/summernote/summernote-bs4.min.css">
+    <!-- Toastr -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/toastr/toastr.min.css">
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/bs-stepper/css/bs-stepper.min.css">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/dropzone/min/dropzone.min.css">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/dist/css/adminlte.min.css?v=3.2.0">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <!-- Datepicker -->
+    <link rel="stylesheet" href="../../../AdminLTE-3.2.0/plugins/datepicker/css/bootstrap-datepicker.min.css">
+
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+            <li class="nav-item d-none d-sm-inline-block">
+                <a href="../../HomePage.html" class="nav-link">Home</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto" id="BtnConfiguracion">
+        </ul>
+    </nav>
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+        <!-- Sidebar -->
+        <div class="sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition">
+            <div class="os-resize-observer-host observed"><div class="os-resize-observer" style="left: 0px; right: auto;"></div></div><div class="os-size-auto-observer observed" style="height: calc(100% + 1px); float: left;"><div class="os-resize-observer"></div></div><div class="os-content-glue" style="margin: 0px -8px; width: 249px; height: 900px;"></div>
+            <div class="os-padding">
+                <div class="os-viewport os-viewport-native-scrollbars-invisible" style="overflow-y: scroll;">
+                    <div class="os-content" style="padding: 0px 8px; height: 100%; width: 100%;">
+
+                        <!-- Sidebar user panel (optional) -->
+                        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                            <div class="image">
+                                <img src="../../../Imagenes para diseño MITCS/SSAMarineMITLogo.jpg" alt="SSA Marine MIT Logo">
+                            </div>
+                            <div class="info">
+                                <a href="#" class="d-block"><b>MIT C</b>ommon <b>S</b>ervices</a>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar Search Form -->
+                        <div class="form-inline">
+                            <div class="input-group" data-widget="sidebar-search">
+                                <input id="menuSearch" class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-sidebar">
+                                        <i class="fas fa-search fa-fw"></i>
+                                    </button>
+                                </div>
+                            </div><div class="sidebar-search-results"><div class="list-group"><a href="#" class="list-group-item"><div class="search-title"><strong class="text-light"></strong>N<strong class="text-light"></strong>o<strong class="text-light"></strong> <strong class="text-light"></strong>e<strong class="text-light"></strong>l<strong class="text-light"></strong>e<strong class="text-light"></strong>m<strong class="text-light"></strong>e<strong class="text-light"></strong>n<strong class="text-light"></strong>t<strong class="text-light"></strong> <strong class="text-light"></strong>f<strong class="text-light"></strong>o<strong class="text-light"></strong>u<strong class="text-light"></strong>n<strong class="text-light"></strong>d<strong class="text-light"></strong>!<strong class="text-light"></strong></div><div class="search-path"></div></a></div></div>
+                        </div>
+
+                        <!-- Sidebar Menu -->
+                        <nav class="mt-2">
+                            <ul class="nav nav-pills nav-sidebar flex-column" id="MenuLateral" data-widget="treeview" role="menu" data-accordion="false">
+                            </ul>
+                        </nav>
+                        <!-- /.sidebar-menu -->
+                    </div>
+                </div>
+            </div><div class="os-scrollbar os-scrollbar-horizontal os-scrollbar-unusable os-scrollbar-auto-hidden"><div class="os-scrollbar-track"><div class="os-scrollbar-handle" style="width: 100%; transform: translate(0px, 0px);"></div></div></div><div class="os-scrollbar os-scrollbar-vertical os-scrollbar-auto-hidden"><div class="os-scrollbar-track"><div class="os-scrollbar-handle" style="height: 66.2987%; transform: translate(0px, 0px);"></div></div></div><div class="os-scrollbar-corner"></div>
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1>Proveedores de Comida</h1>
+                    </div>
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="../../HomePage.html">Home</a></li>
+                            <li class="breadcrumb-item active">Proveedores de Comida</li>
+                        </ol>
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </section>
+
+        <!-- ProveedoresComida DataTable -->
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <table id="tablaProveedoresComida" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th colspan="12">
+                                        <button type="button" class="btn-sm btn-primary float-end" title="Añadir" data-toggle="modal" data-target="#modal_creacionProveedorComida">
+                                            <i class="fa fa-plus"></i>
+                                        </button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Contacto</th>
+                                    <th>Capacidad</th>
+                                    <th>Prioridad</th>
+                                    <th>Precio regular</th>
+                                    <th>Precio especial</th>
+                                    <th>Calendario</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modals -->
+    <!-- Modal de creacion de proveedor -->
+    <div class="modal fade" id="modal_creacionProveedorComida" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Creacion de Proveedor de Comida</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="col-12 row">
+                            <div class="col-6">
+                                <label>Proveedor</label>
+                                <input type="text" class="form-control" id="form_nombreProveedor" placeholder="" required>
+                            </div>
+                            <div class="col-6">
+                                <label>Contacto</label>
+                                <input type="text" class="form-control" id="form_contactoProveedor" placeholder="">
+                            </div>
+                            <div class="col-6">
+                                <label>Capacidad</label>
+                                <input type="number" class="form-control" id="form_capacidadProveedor" placeholder="" required>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label>Prioridad</label>
+                                    <select class="form-control" id="select_prioridadProveedor">
+                                        <option>LOW</option>
+                                        <option>MEDIUM</option>
+                                        <option>HIGH</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <label>P. Regular</label>
+                                <input type="number" placeholder="0.00" step="0.01" class="form-control" id="form_precioRegularProveedor" required>
+                            </div>
+                            <div class="col-6">
+                                <label>P. Especial</label>
+                                <input type="number" placeholder="0.00" step="0.01" class="form-control" id="form_precioEspecialProveedor" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="creacionProveedorComida()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de edicion de proveedor -->
+    <div class="modal fade" id="modal_edicionProveedorComida" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Edicion de Proveedor de Comida</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="col-12 row">
+                            <div class="col-6">
+                                <label>Proveedor</label>
+                                <input type="text" class="form-control" id="form_nombreProveedorEdicion" placeholder="" required>
+                                <input type="text" class="form-control" id="form_idProveedorEdicion" placeholder="" disabled hidden>
+                            </div>
+                            <div class="col-6">
+                                <label>Contacto</label>
+                                <input type="text" class="form-control" id="form_contactoProveedorEdicion" placeholder="">
+                            </div>
+                            <div class="col-6">
+                                <label>Capacidad</label>
+                                <input type="number" class="form-control" id="form_capacidadProveedorEdicion" placeholder="" required>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label>Prioridad</label>
+                                    <select class="form-control" id="select_prioridadProveedorEdicion">
+                                        <option>LOW</option>
+                                        <option>MEDIUM</option>
+                                        <option>HIGH</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <label>P. Regular</label>
+                                <input type="number" placeholder="0.00" step="0.01" class="form-control" id="form_precioRegularProveedorEdicion" required>
+                            </div>
+                            <div class="col-6">
+                                <label>P. Especial</label>
+                                <input type="number" placeholder="0.00" step="0.01" class="form-control" id="form_precioEspecialProveedorEdicion" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger" onclick="desactivarProveedorComida()">Eliminar</button>
+                    <button type="button" class="btn btn-primary" onclick="edicionProveedorComida()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de calendario de proveedor -->
+    <div class="modal fade" id="modal_calendarioProveedorComida" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Calendario de Proveedor de Comida</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="col-12 row">
+                            <div class="col-4">
+                                <input type="text" class="form-control" id="form_turnoDiurno" placeholder="" disabled hidden>
+                                <div class="form-group">
+                                    <label>Turno diurno</label><i class="fa fa-sun"></i>
+                                    <div class="input-group" id="datepickerDiurno">
+                                        <input type="text" id="datepicker_diurno" class="form-control datetimepicker-input" hidden data-target="#datepickerDiurno" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" id="form_turnoNocturno" placeholder="" disabled hidden>
+                                <div class="form-group">
+                                    <label>Turno nocturno</label><i class="fa fa-moon"></i>
+                                    <div class="input-group" id="datepickerNocturno">
+                                        <input type="text" id="datepicker_nocturno" class="form-control datetimepicker-input" hidden data-target="#datepickerNocturno" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" id="form_turnoVespertino" placeholder="" disabled hidden>
+                                <div class="form-group">
+                                    <label>Turno vespertino</label><i class="fa fa-cloud-sun"></i>
+                                    <div class="input-group" id="datepickerVespertino">
+                                        <input type="text" id="datepicker_vespertino" class="form-control datetimepicker-input" hidden data-target="#datepickerVespertino" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control" id="form_idProveedor" placeholder="" disabled hidden>
+                            </div>
+                        </div>
+                        <p class="text-info">Fechas anteriores al dia actual no seran cambiadas o guardadas</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="borrarRegistrosPosteriores(); calendarioDiurnoProveedorComida(); calendarioNocturnoProveedorComida(); calendarioVespertinoProveedorComida()">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery -->
+    <script src="../../../AdminLTE-3.2.0/plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="../../../AdminLTE-3.2.0/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>$.widget.bridge('uibutton', $.ui.button)</script>
+    <!-- Bootstrap 4 -->
+    <script src="../../../AdminLTE-3.2.0/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="../../../AdminLTE-3.2.0/plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="../../../AdminLTE-3.2.0/plugins/sparklines/sparkline.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="../../../AdminLTE-3.2.0/plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="../../../AdminLTE-3.2.0/plugins/moment/moment.min.js"></script>
+    <script src="../../../AdminLTE-3.2.0/plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="../../../AdminLTE-3.2.0/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="../../../AdminLTE-3.2.0/plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="../../../AdminLTE-3.2.0/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../../AdminLTE-3.2.0/dist/js/adminlte.js"></script>
+    <!-- Toastr -->
+    <script src="../../../AdminLTE-3.2.0/plugins/toastr/toastr.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="../../../AdminLTE-3.2.0/plugins/sweetalert2/sweetalert2.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/select2/js/select2.full.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/inputmask/jquery.inputmask.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/dropzone/min/dropzone.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/bs-stepper/js/bs-stepper.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables/jquery.dataTables.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/jszip/jszip.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/pdfmake/pdfmake.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/pdfmake/vfs_fonts.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+
+    <script src="../../../AdminLTE-3.2.0/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="../../../AdminLTE-3.2.0/plugins/datepicker/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- JS propios -->
+    <script src="../../../JavaScript/GlobalFunctions.js"></script>
+    <script src="../../../JavaScript/ProveedoresComida.js"></script>
+
+</body>
+</html>
