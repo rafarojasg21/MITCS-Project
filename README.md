@@ -1,6 +1,6 @@
 Hello there!
 
-This was my internship project and it was about making a web application using HTML5, CSS, JS, C# and SQL for the DB.
+This was my internship project and it was about making a web application using HTML5, CSS, JS, C# and SQL for the DB. All was made in Visual Studio and SQL Server Management Studio.
 
 Let's get right into it.
 
